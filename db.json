@@ -1,0 +1,1014 @@
+{
+	"surveys": [
+		{
+			"pages": [
+				{
+					"components": [
+						{
+							"id": 27179,
+							"type": "PlainText",
+							"index": 0,
+							"label": "<p>Hello,</p><p>Please take a few minutes of your time to fill in the following survey.</p>",
+							"isEdit": true,
+							"settings": {
+								"isRequired": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"isHide": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"leftSideLabel": false,
+								"hasDescription": {
+									"checked": false,
+									"text": ""
+								}
+							},
+							"skipLogic": {
+								"likeInitializer": [],
+								"contradictories": []
+							}
+						},
+						{
+							"id": 27176,
+							"type": "Combine",
+							"index": 1,
+							"label": "Full Name",
+							"isEdit": true,
+							"settings": {
+								"isRequired": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"isHide": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"leftSideLabel": false,
+								"hasDescription": {
+									"checked": false,
+									"text": ""
+								},
+								"builderTemplateUrl": "survey-builder-component-combine-fullname"
+							},
+							"skipLogic": {
+								"likeInitializer": [],
+								"contradictories": []
+							},
+							"options": [
+								{
+									"type": "input",
+									"label": "First Name",
+									"placeholder": "",
+									"settings": {
+										"isHide": false,
+										"isRequired": false,
+										"size": "33",
+										"isLocked": false,
+										"isPlaceholder": true,
+										"subtype": "text"
+									}
+								},
+								{
+									"type": "input",
+									"label": "Middle Name",
+									"placeholder": "",
+									"settings": {
+										"isHide": false,
+										"isRequired": false,
+										"size": "33",
+										"isLocked": false,
+										"isPlaceholder": true,
+										"subtype": "text"
+									}
+								},
+								{
+									"type": "input",
+									"label": "Last Name",
+									"placeholder": "",
+									"settings": {
+										"isHide": false,
+										"isRequired": false,
+										"size": "33",
+										"isLocked": false,
+										"isPlaceholder": true,
+										"subtype": "text"
+									}
+								}
+							]
+						},
+						{
+							"id": 27175,
+							"type": "Combine",
+							"index": 2,
+							"label": "<p>Address</p>",
+							"isEdit": true,
+							"settings": {
+								"isRequired": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"isHide": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"leftSideLabel": false,
+								"hasDescription": {
+									"checked": false,
+									"text": ""
+								},
+								"builderTemplateUrl": "survey-builder-component-combine-address"
+							},
+							"skipLogic": {
+								"likeInitializer": [],
+								"contradictories": []
+							},
+							"options": [
+								{
+									"type": "input",
+									"label": "Street Address",
+									"placeholder": "",
+									"settings": {
+										"isHide": false,
+										"isRequired": false,
+										"size": "100",
+										"isLocked": false,
+										"subtype": "text",
+										"isPlaceholder": true
+									}
+								},
+								{
+									"type": "input",
+									"label": "Street Address 2",
+									"placeholder": "",
+									"settings": {
+										"isHide": false,
+										"isRequired": false,
+										"size": "100",
+										"isLocked": false,
+										"subtype": "text",
+										"isPlaceholder": true
+									}
+								},
+								{
+									"type": "input",
+									"label": "City",
+									"placeholder": "",
+									"settings": {
+										"isHide": false,
+										"isRequired": false,
+										"size": "50",
+										"isLocked": false,
+										"subtype": "text",
+										"isPlaceholder": true
+									}
+								},
+								{
+									"type": "input",
+									"label": "State / Province",
+									"placeholder": "",
+									"settings": {
+										"isHide": false,
+										"isRequired": false,
+										"size": "50",
+										"isLocked": false,
+										"subtype": "text",
+										"isPlaceholder": true
+									}
+								},
+								{
+									"type": "input",
+									"label": "Postal / Zip Code",
+									"placeholder": "",
+									"settings": {
+										"isHide": false,
+										"isRequired": false,
+										"size": "50",
+										"isLocked": false,
+										"subtype": "text",
+										"isPlaceholder": true
+									}
+								},
+								{
+									"type": "select",
+									"label": "Country",
+									"placeholder": "",
+									"settings": {
+										"isHide": false,
+										"isRequired": false,
+										"size": "50",
+										"isLocked": false,
+										"data": [
+											"Please select",
+											"Afghanistan",
+											"Albania",
+											"Algeria",
+											"Andorra",
+											"Angola",
+											"Antigua and Barbuda",
+											"Argentina",
+											"Armenia",
+											"Aruba",
+											"Australia",
+											"Austria",
+											"Azerbaijan",
+											"Bahamas",
+											"Bahrain",
+											"Bangladesh",
+											"Barbados",
+											"Belarus",
+											"Belgium",
+											"Belize",
+											"Benin",
+											"Bhutan",
+											"Bolivia",
+											"Bosnia and Herzegovina",
+											"Botswana",
+											"Brazil",
+											"Brunei",
+											"Bulgaria",
+											"Burkina Faso",
+											"Burma",
+											"Burundi",
+											"Cambodia",
+											"Cameroon",
+											"Canada",
+											"Cabo Verde",
+											"Central African Republic",
+											"Chad",
+											"Chile",
+											"China",
+											"Colombia",
+											"Comoros",
+											"Congo. Democratic Republic of the",
+											"Congo. Republic of the",
+											"Costa Rica",
+											"Cote d'Ivoire",
+											"Croatia",
+											"Cuba",
+											"Curacao",
+											"Cyprus",
+											"Czechia",
+											"Denmark",
+											"Djibouti",
+											"Dominica",
+											"Dominican Republic",
+											"East Timor (see Timor-Leste)",
+											"Ecuador",
+											"Egypt",
+											"El Salvador",
+											"Equatorial Guinea",
+											"Eritrea",
+											"Estonia",
+											"Ethiopia",
+											"Fiji",
+											"Finland",
+											"France",
+											"Gabon",
+											"Gambia",
+											"Georgia",
+											"Germany",
+											"Ghana",
+											"Greece",
+											"Grenada",
+											"Guatemala",
+											"Guinea",
+											"Guinea-Bissau",
+											"Guyana",
+											"Haiti",
+											"Holy See",
+											"Honduras",
+											"Hong Kong",
+											"Hungary",
+											"Iceland",
+											"India",
+											"Indonesia",
+											"Iran",
+											"Iraq",
+											"Ireland",
+											"Israel",
+											"Italy",
+											"Jamaica",
+											"Japan",
+											"Jordan",
+											"Kazakhstan",
+											"Kenya",
+											"Kiribati",
+											"Korea. North",
+											"Korea. South",
+											"Kosovo",
+											"Kuwait",
+											"Kyrgyzstan",
+											"Laos",
+											"Latvia",
+											"Lebanon",
+											"Lesotho",
+											"Liberia",
+											"Libya",
+											"Liechtenstein",
+											"Lithuania",
+											"Luxembourg",
+											"Macau",
+											"Macedonia",
+											"Madagascar",
+											"Malawi",
+											"Malaysia",
+											"Maldives",
+											"Mali",
+											"Malta",
+											"Marshall Islands",
+											"Mauritania",
+											"Mauritius",
+											"Mexico",
+											"Micronesia",
+											"Moldova",
+											"Monaco",
+											"Mongolia",
+											"Montenegro",
+											"Morocco",
+											"Mozambique",
+											"Namibia",
+											"Nauru",
+											"Nepal",
+											"Netherlands",
+											"New Zealand",
+											"Nicaragua",
+											"Niger",
+											"Nigeria",
+											"North Korea",
+											"Norway",
+											"Oman",
+											"Pakistan",
+											"Palau",
+											"Palestinian Territories",
+											"Panama",
+											"Papua New Guinea",
+											"Paraguay",
+											"Peru",
+											"Philippines",
+											"Poland",
+											"Portugal",
+											"Qatar",
+											"Romania",
+											"Russia",
+											"RwandaSaint Kitts and Nevis",
+											"Saint Lucia",
+											"Saint Vincent and the Grenadines",
+											"Samoa",
+											"San Marino",
+											"Sao Tome and Principe",
+											"Saudi Arabia",
+											"Senegal",
+											"Serbia",
+											"Seychelles",
+											"Sierra Leone",
+											"Singapore",
+											"Sint Maarten",
+											"Slovakia",
+											"Slovenia",
+											"Solomon Islands",
+											"Somalia",
+											"South Africa",
+											"South Korea",
+											"South Sudan",
+											"Spain",
+											"Sri Lanka",
+											"Sudan",
+											"Suriname",
+											"Swaziland",
+											"Sweden",
+											"Switzerland",
+											"Syria",
+											"Taiwan",
+											"Tajikistan",
+											"Tanzania",
+											"Thailand",
+											"Timor-Leste",
+											"Togo",
+											"Tonga",
+											"Trinidad and Tobago",
+											"Tunisia",
+											"Turkey",
+											"Turkmenistan",
+											"Tuvalu",
+											"Uganda",
+											"Ukraine",
+											"United Arab Emirates",
+											"United Kingdom",
+											"Uruguay",
+											"Uzbekistan",
+											"Vanuatu",
+											"Venezuela",
+											"Vietnam",
+											"Yemen",
+											"Zambia",
+											"Zimbabwe"
+										],
+										"isPlaceholder": false
+									}
+								}
+							]
+						},
+						{
+							"id": 27177,
+							"type": "Combine",
+							"index": 3,
+							"label": "<p>Education</p>",
+							"isEdit": true,
+							"settings": {
+								"isRequired": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"isHide": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"leftSideLabel": false,
+								"hasDescription": {
+									"checked": false,
+									"text": ""
+								},
+								"builderTemplateUrl": "survey-builder-component-combine-education"
+							},
+							"skipLogic": {
+								"likeInitializer": [],
+								"contradictories": []
+							},
+							"options": [
+								{
+									"type": "input",
+									"label": "School / University",
+									"placeholder": "",
+									"settings": {
+										"isHide": false,
+										"isRequired": false,
+										"size": "100",
+										"isLocked": false,
+										"isPlaceholder": true,
+										"subtype": "text"
+									}
+								},
+								{
+									"type": "input",
+									"label": "Date Attended",
+									"placeholder": "",
+									"settings": {
+										"isHide": false,
+										"isRequired": false,
+										"size": "50",
+										"isLocked": false,
+										"isPlaceholder": true,
+										"subtype": "number"
+									}
+								},
+								{
+									"type": "input",
+									"label": "To",
+									"placeholder": "",
+									"settings": {
+										"isHide": false,
+										"isRequired": false,
+										"size": "50",
+										"isLocked": false,
+										"isPlaceholder": true,
+										"subtype": "number"
+									}
+								},
+								{
+									"type": "input",
+									"label": "Degree",
+									"placeholder": "",
+									"settings": {
+										"isHide": false,
+										"isRequired": false,
+										"size": "50",
+										"isLocked": false,
+										"isPlaceholder": true,
+										"subtype": "text"
+									}
+								},
+								{
+									"type": "input",
+									"label": "Field of Study",
+									"placeholder": "",
+									"settings": {
+										"isHide": false,
+										"isRequired": false,
+										"size": "50",
+										"isLocked": false,
+										"isPlaceholder": true,
+										"subtype": "text"
+									}
+								}
+							]
+						},
+						{
+							"id": 27166,
+							"type": "Dropdown",
+							"index": 4,
+							"label": "<h1><span style=\"font-size: 26.1px;text-align: left;float: none;\">What meal would you consider to be your main meal of the day?</span><br/></h1>",
+							"isEdit": true,
+							"settings": {
+								"isRequired": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"isHide": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"leftSideLabel": false,
+								"hasDescription": {
+									"checked": false,
+									"text": ""
+								},
+								"externalSource": {
+									"isExternal": false,
+									"URL": null,
+									"expectedData": {
+										"text": null,
+										"value": null
+									}
+								}
+							},
+							"skipLogic": {
+								"likeInitializer": [],
+								"contradictories": []
+							},
+							"options": [
+								{
+									"id": 1,
+									"text": "Breakfast",
+									"labelText": null
+								},
+								{
+									"id": 2,
+									"text": "Lunch",
+									"labelText": null
+								},
+								{
+									"id": 3,
+									"text": "Dinner",
+									"labelText": null
+								}
+							]
+						},
+						{
+							"id": 27167,
+							"type": "MultipleChoice",
+							"index": 5,
+							"label": "<p>What does your main meal on the weekend consist of and how is it prepared?</p>",
+							"isEdit": true,
+							"settings": {
+								"isRequired": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"isHide": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"leftSideLabel": false,
+								"hasDescription": {
+									"checked": false,
+									"text": ""
+								},
+								"optionOther": {
+									"id": 999,
+									"text": "Other (Please state briefly)",
+									"labelText": null,
+									"settings": {
+										"subtype": "text"
+									}
+								},
+								"isCheckboxes": false,
+								"isOther": true,
+								"subtype": "default",
+								"isColumns": false,
+								"columnsNumber": 1,
+								"maxLength": "60"
+							},
+							"skipLogic": {
+								"likeInitializer": [],
+								"contradictories": []
+							},
+							"options": [
+								{
+									"id": 1,
+									"text": "Freshly home-cooked produce",
+									"labelText": null,
+									"settings": null
+								},
+								{
+									"id": 2,
+									"text": "Restaurant meal",
+									"labelText": null,
+									"settings": null
+								},
+								{
+									"id": 3,
+									"text": "Pre-cooked, microwave or TV dinners",
+									"labelText": ""
+								}
+							]
+						},
+						{
+							"id": 27171,
+							"type": "Range",
+							"index": 6,
+							"label": "<p></p><p>What percentage of your regular diet consists of meat and meat products? </p><p><br/></p>",
+							"isEdit": true,
+							"settings": {
+								"isRequired": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"isHide": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"leftSideLabel": false,
+								"hasDescription": {
+									"checked": false,
+									"text": ""
+								},
+								"length": "",
+								"subtype": "numeric",
+								"useSlider": false
+							},
+							"skipLogic": {
+								"likeInitializer": [],
+								"contradictories": []
+							},
+							"options": [
+								{
+									"id": null,
+									"labelTextFrom": 0,
+									"labelTextTo": "100",
+									"step": 1
+								}
+							]
+						},
+						{
+							"id": 27207,
+							"type": "Matrix",
+							"index": 7,
+							"label": "<p><span style=\"font-size: 26.1px;text-align: left;float: none;\"><b>Rate the following statements concerning &#34;hospital&#34;:</b></span><br/></p>",
+							"isEdit": true,
+							"settings": {
+								"isRequired": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"isHide": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"leftSideLabel": false,
+								"hasDescription": {
+									"checked": false,
+									"text": ""
+								}
+							},
+							"skipLogic": {
+								"likeInitializer": [],
+								"contradictories": []
+							},
+							"options": [
+								{
+									"id": null,
+									"text": null,
+									"labelText": null,
+									"columns_titles": [
+										"Strongly agree",
+										"Agree",
+										"Neutral"
+									],
+									"rows_titles": [
+										"Highest quality doctor staff in the area",
+										"Highest quality nursing staff in the area",
+										"Most up-to-date facilities in the area",
+										"My doctors were skilled and experienced",
+										"My doctor was kind and caring",
+										"My doctor kept me fully informed"
+									]
+								}
+							]
+						},
+						{
+							"id": 27172,
+							"type": "Rate",
+							"index": 8,
+							"label": "<p><span style=\"font-size: 26.1px;text-align: left;float: none;\"><b>What is your overall satisfaction with Soft Serve and the medical care you received? (specify between 1 and 5)</b></span><br/></p>",
+							"isEdit": true,
+							"settings": {
+								"isRequired": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"isHide": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"leftSideLabel": false,
+								"hasDescription": {
+									"checked": false,
+									"text": ""
+								}
+							},
+							"skipLogic": {
+								"likeInitializer": [],
+								"contradictories": []
+							},
+							"options": [
+								{
+									"size": 5
+								}
+							]
+						},
+						{
+							"id": 27178,
+							"type": "TextBox",
+							"index": 9,
+							"label": "<p><span style=\"font-size: 26.1px;text-align: left;float: none;\"><b>Please comment on your experience as a patient of &#34;hospital&#34;:</b></span><br/></p>",
+							"isEdit": true,
+							"settings": {
+								"isRequired": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"isHide": {
+									"state": "default",
+									"value": false,
+									"defaultValue": false
+								},
+								"leftSideLabel": false,
+								"hasDescription": {
+									"checked": false,
+									"text": ""
+								},
+								"subtype": "text",
+								"textArea": null,
+								"length": "",
+								"useSameInformation": {
+									"check": false,
+									"values": []
+								},
+								"maxLength": "60"
+							},
+							"skipLogic": {
+								"likeInitializer": [],
+								"contradictories": []
+							},
+							"options": []
+						}
+					],
+					"id": 12608,
+					"skipLogic": {
+						"likeInitializer": [],
+						"contradictories": []
+					},
+					"pageNumber": 0,
+					"pageName": "",
+					"isActive": true,
+					"skip": false,
+					"settings": {
+						"isRequired": {
+							"state": "default",
+							"value": false,
+							"defaultValue": false
+						},
+						"isHide": {
+							"state": "default",
+							"value": false,
+							"defaultValue": false
+						},
+						"leftSideLabel": false,
+						"hasDescription": {
+							"checked": false,
+							"text": ""
+						}
+					}
+				}
+			],
+			"createdAt": "2017-10-24T09:15:46+00:00",
+			"updatedAt": "2017-10-24T11:00:44+00:00",
+			"id": 257782,
+			"name": "New Survey 411",
+			"author": "Unnamed User",
+			"settings": {
+				"showNumbers": {
+					"value": true
+				},
+				"saveAnswersByEachPage": {
+					"value": false
+				},
+				"showOnePageView": {
+					"value": false,
+					"disabled": false
+				},
+				"renumber": {
+					"value": "default"
+				},
+				"allowFields": {
+					"combine": false
+				},
+				"previewAnswers": {
+					"value": false
+				},
+				"notifications": {
+					"value": true
+				},
+				"align": {
+					"value": "left"
+				},
+				"readOnly": {
+					"value": false
+				},
+				"isSubmittable": {
+					"value": true
+				},
+				"softValidation": {
+					"value": false,
+					"pagination": false
+				},
+				"isPrinting": {
+					"value": false
+				},
+				"sections": {
+					"welcome": {
+						"title": "",
+						"subtitle": "",
+						"logo": "",
+						"logoWidth": "",
+						"logoHeight": "",
+						"bgColor": "#fff",
+						"alignment": "bottom",
+						"fitType": "fill",
+						"bgImage": "",
+						"fullWidth": false
+					},
+					"thankYou": {
+						"title": "",
+						"subtitle": "",
+						"logo": "",
+						"logoWidth": "",
+						"logoHeight": "",
+						"bgColor": "#fff",
+						"alignment": "bottom",
+						"fitType": "fill",
+						"bgImage": "",
+						"fullWidth": false
+					},
+					"header": {
+						"title": "<h2>Eating and dietary habits survey</h2>",
+						"subtitle": "",
+						"logo": "",
+						"logoWidth": "",
+						"logoHeight": "",
+						"bgColor": "#fff",
+						"alignment": "bottom",
+						"fitType": "fill",
+						"bgImage": "",
+						"fullWidth": false
+					},
+					"footer": {
+						"title": "<p>thanks for your time</p>",
+						"subtitle": "",
+						"logo": "",
+						"logoWidth": "",
+						"logoHeight": "",
+						"bgColor": "#fff",
+						"alignment": "bottom",
+						"fitType": "fill",
+						"bgImage": "",
+						"fullWidth": false
+					}
+				},
+				"builderSectionStatus": {
+					"welcome": {
+						"isCompleted": false,
+						"isActive": false,
+						"isLocked": false
+					},
+					"header": {
+						"isCompleted": true,
+						"isActive": false,
+						"isLocked": false
+					},
+					"footer": {
+						"isCompleted": true,
+						"isActive": true,
+						"isLocked": false
+					},
+					"content": {
+						"isCompleted": null,
+						"isActive": false,
+						"isLocked": false
+					},
+					"thankYou": {
+						"isCompleted": null,
+						"isActive": false,
+						"isLocked": false
+					}
+				},
+				"viewerSectionStatus": {
+					"welcome": null,
+					"content": null,
+					"thankYou": null
+				},
+				"global": {
+					"builderEditSurvey": {
+						"0": {
+							"welcome": false,
+							"header": false,
+							"content": {
+								"menubar": false,
+								"navbar": false,
+								"desktop": false,
+								"toolbar": false
+							},
+							"footer": false,
+							"thankYou": false
+						},
+						"1": {
+							"welcome": false,
+							"header": false,
+							"content": {
+								"menubar": false,
+								"navbar": false,
+								"desktop": false,
+								"toolbar": false
+							},
+							"footer": false,
+							"thankYou": false
+						},
+						"2": {
+							"welcome": true,
+							"header": true,
+							"content": {
+								"menubar": true,
+								"navbar": true,
+								"desktop": true,
+								"toolbar": true
+							},
+							"footer": true,
+							"thankYou": true
+						},
+						"3": {
+							"welcome": true,
+							"header": true,
+							"footer": true,
+							"thankYou": true,
+							"content": {
+								"menubar": false,
+								"navbar": false,
+								"desktop": false,
+								"toolbar": false
+							}
+						}
+					},
+					"previewAnswersBeforeSubmit": true,
+					"saveAnswersByEachPage": true,
+					"undo/redo": false,
+					"allowFields": {
+						"combine": false
+					}
+				}
+			},
+			"type": "survey",
+			"activeStatus": 2
+		}
+	],
+	"answers": [
+		{
+			"id": 1
+		}
+	],
+	"logs": [
+		{
+			"id": 1
+		}
+	]
+}
